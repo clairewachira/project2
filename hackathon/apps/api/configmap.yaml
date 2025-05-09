@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+data:
+  api-config.json: |
+    {
+      "LogLevel": "Information",
+      "AllowedHosts": "*",
+      "ConnectionStrings": {
+        "TodoDb": "Server=todo-db;Port=5432;Database=todo;User Id=postgres;Password=postgres;"
+      },
+      "ApiOptions": {
+        "EnableSwagger": true,
+        "EnableMetrics": true
+      }
+    }
