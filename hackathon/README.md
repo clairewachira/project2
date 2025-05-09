@@ -45,8 +45,8 @@ API: http://api.todo.local
 Cleanup
 To remove all resources:
 ./scripts/cleanup.sh
-Requirements Met
 
+Requirements Met
 Container Images: Using existing images from Docker Hub
 Persistent Storage: Implemented for the database
 Configuration: Using ConfigMaps for API configuration
